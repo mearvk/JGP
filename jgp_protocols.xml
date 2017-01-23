@@ -1,11 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-
-
-<root>
+<protocols>
+    <http>
+        <version id="1.0">            
+            <function name="GET" tiesto="apml.functions.list.http.GET.function">
+                
+            </function>
+            <function name="POST" tiesto="">
+                
+            </function>
+        </version>
+    </http>
+    <jgp reference="jpg://versioning:jndi('jpg spec'):version('latest')">
+        <version id="1.0">
+            <function name="gitme" tiesto="">
+                @author: max rupplin
+                @purpose : places long distance call over any available means - for free
+                @date: 1.1.2011
+                @see jgp://help:jndi('functions'):('gitme'):version('8.2')
+                @params string :: userid | phonenumber | email | PREFERENCES{video|voice|sms|text|email}
+                @returns string :: docktom.binconnect.id {livetalk}
+            </function>
+        </version>
+    </jgp>
     
-</root>
+</protocols>

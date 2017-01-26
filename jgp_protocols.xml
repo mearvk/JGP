@@ -9,7 +9,7 @@
             </function>
         </version>
     </http>
-    <jgp reference="jpg://versioning:jndi('jpg spec'):version('latest')">
+    <jgp reference="jgp://versioning:jndi('jgp spec'):version('latest')">
         <version id="1.0">
             <function name="gitme" tiesto="">
                 @author: max rupplin
